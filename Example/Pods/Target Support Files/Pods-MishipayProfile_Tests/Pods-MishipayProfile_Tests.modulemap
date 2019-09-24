@@ -1,0 +1,6 @@
+framework module Pods_MishipayProfile_Tests {
+  umbrella header "Pods-MishipayProfile_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
