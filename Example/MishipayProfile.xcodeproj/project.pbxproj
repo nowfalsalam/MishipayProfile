@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E6301E233B041D009ECAB4 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6301D233B041D009ECAB4 /* ProfileTableViewCell.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E6301D233B041D009ECAB4 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		06D4576870C054D1733CD0DD /* Pods-MishipayProfile_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MishipayProfile_Example.release.xcconfig"; path = "Target Support Files/Pods-MishipayProfile_Example/Pods-MishipayProfile_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MishipayProfile_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MishipayProfile_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,13 +42,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A264B8732814C4E3CE57DC1D /* Pods-MishipayProfile_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MishipayProfile_Tests.release.xcconfig"; path = "Target Support Files/Pods-MishipayProfile_Tests/Pods-MishipayProfile_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BFAD709F732D48423C560540 /* MishipayProfile.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MishipayProfile.podspec; path = ../MishipayProfile.podspec; sourceTree = "<group>"; };
+		BFAD709F732D48423C560540 /* MishipayProfile.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MishipayProfile.podspec; path = ../MishipayProfile.podspec; sourceTree = "<group>"; };
 		C6C57C5997D6D26C75046342 /* Pods_MishipayProfile_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MishipayProfile_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8180EF8E2356988860D306F /* Pods_MishipayProfile_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MishipayProfile_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECE1482CA37C3F438A11339 /* Pods-MishipayProfile_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MishipayProfile_Example.debug.xcconfig"; path = "Target Support Files/Pods-MishipayProfile_Example/Pods-MishipayProfile_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F42596EC16C804747BD799B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F42596EC16C804747BD799B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F94CA9382822AD984EB033E9 /* Pods-MishipayProfile_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MishipayProfile_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MishipayProfile_Tests/Pods-MishipayProfile_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FFDE7869749208C570004F09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FFDE7869749208C570004F09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				00E6301D233B041D009ECAB4 /* ProfileTableViewCell.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +150,6 @@
 				F94CA9382822AD984EB033E9 /* Pods-MishipayProfile_Tests.debug.xcconfig */,
 				A264B8732814C4E3CE57DC1D /* Pods-MishipayProfile_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +216,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 254NERS8BQ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 254NERS8BQ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -356,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E6301E233B041D009ECAB4 /* ProfileTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +509,7 @@
 			baseConfigurationReference = EECE1482CA37C3F438A11339 /* Pods-MishipayProfile_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 254NERS8BQ;
 				INFOPLIST_FILE = MishipayProfile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -518,6 +525,7 @@
 			baseConfigurationReference = 06D4576870C054D1733CD0DD /* Pods-MishipayProfile_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 254NERS8BQ;
 				INFOPLIST_FILE = MishipayProfile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F94CA9382822AD984EB033E9 /* Pods-MishipayProfile_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 254NERS8BQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -554,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A264B8732814C4E3CE57DC1D /* Pods-MishipayProfile_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 254NERS8BQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
