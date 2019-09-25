@@ -15,6 +15,10 @@ To get profile details  :- MP().getUserDetails(), AddProfileDelegate
 MishipayProfile is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/nowfalsalam/MishipayProfile.git'
+
 ```ruby
 pod 'MishipayProfile'
 ```
